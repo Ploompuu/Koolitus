@@ -2,16 +2,22 @@ html {
     font-family: 'Lato', sans-serif;
 }
 form {
-    background-color: white;
+    background-image: url(https://media.istockphoto.com/vectors/vector-blue-blurred-gradient-style-background-abstract-smooth-vector-id932175010?k=20&m=932175010&s=612x612&w=0&h=1xCURjpcUHDzUxFm6ehxa50Bd53AK5QtcZBvIbI2xxU=);
     width: 400px;
-    border-color: black;
+    border-color: lightgray;
     border-style: solid;
     border-width: 2px;
     padding-left: 15px;
     padding-bottom: 15px;
-    padding-top: 15px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
 }
 
+.element2 {
+    color: white;
+}
+
+.element6 {
+    color:white
+}

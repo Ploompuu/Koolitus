@@ -2,7 +2,7 @@ html {
     font-family: 'Lato', sans-serif;
 }
 form {
-    background-image: url(https://media.istockphoto.com/vectors/vector-blue-blurred-gradient-style-background-abstract-smooth-vector-id932175010?k=20&m=932175010&s=612x612&w=0&h=1xCURjpcUHDzUxFm6ehxa50Bd53AK5QtcZBvIbI2xxU=);
+    background-image: url(./Image.png);
     width: 400px;
     border-color: lightgray;
     border-style: solid;
@@ -15,9 +15,9 @@ form {
 }
 
 .element2 {
-    color: white;
+    color: blue
 }
 
 .element6 {
-    color:white
+    color:blue
 }

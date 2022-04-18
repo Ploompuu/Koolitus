@@ -3,6 +3,7 @@ html {
 }
 form {
     background-image: url(./Image.png);
+    background-repeat: no-repeat;
     width: 400px;
     border-color: lightgray;
     border-style: solid;
@@ -20,4 +21,11 @@ form {
 
 .element6 {
     color:blue
+}
+
+label {
+    min-width: 30%;
+    display: inline-block;
+    max-width: 30%;
+    text-align: left;
 }

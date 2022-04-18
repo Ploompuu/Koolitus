@@ -1,0 +1,55 @@
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.konteiner1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.element1 {
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    background-color: lightgray;
+    width: 150px;
+    height: 150px;
+}
+
+.flexbox-item1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./field12.jpeg);
+    color: antiquewhite;
+    min-height: 300px;
+    min-width: 333px;
+}
+
+.flexbox-item2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    min-width: 333px;
+    text-align: center;
+    background-image: url(./polynesia12.jpeg);
+    color: antiquewhite;
+}
+
+.flexbox-item3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 350px;
+    min-width: 333px;
+    text-align: center;
+    background-image: url(./sunrise12.jpeg);
+    color: antiquewhite;
+}

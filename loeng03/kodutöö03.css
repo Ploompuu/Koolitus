@@ -23,7 +23,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    text-align: center;
     background-image: url(./field12.jpeg);
     color: antiquewhite;
     min-height: 300px;
@@ -34,10 +34,9 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    text-align: center;
     min-height: 200px;
     min-width: 333px;
-    text-align: center;
     background-image: url(./polynesia12.jpeg);
     color: antiquewhite;
 }
@@ -46,10 +45,27 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    text-align: center;
     min-height: 350px;
     min-width: 333px;
-    text-align: center;
     background-image: url(./sunrise12.jpeg);
     color: antiquewhite;
+}
+
+.flexbox-subitem1 {
+    display: flex;
+    justify-content: center;
+    color: antiquewhite
+}
+
+.flexbox-subitem2 {
+    display: flex;
+    justify-content: center;
+    color: antiquewhite
+}
+
+.flexbox-subitem3 {
+    display: flex;
+    justify-content: center;
+    color: antiquewhite
 }

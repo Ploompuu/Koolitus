@@ -1,0 +1,85 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+    min-height: 50px;
+    padding: 15px;
+    background-image: url(./flamingo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    background-color: darkgray;
+    display: flex;
+}
+
+header img {
+    height: 50px
+}
+
+header h1 {
+    color: white;
+}
+
+header a {
+    color: white;
+}
+
+aside {
+    background-color: lightgray;
+    width: 20%;
+}
+
+section {
+    min-height: 300px;
+    width: 80%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav>ul>li>a {
+    color: black;
+    margin-left: 10px;
+}
+
+.pildiga-blokk {
+    display: flex;
+}
+
+.pildiga-blokk img {
+    width: 45%;
+}
+
+.tekst {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.reklaam {
+    width: 80%;
+    max-height: fit-content;
+}
+
+main aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+}

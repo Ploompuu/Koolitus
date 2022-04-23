@@ -1,17 +1,18 @@
+html {
+    font-family: 'Lato', sans-serif;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: lightgray;
     min-height: 50px;
     padding: 15px;
-    background-image: url(./flamingo.jpg);
-    background-size: cover;
-    background-position: center;
+    background-color: #53687E;
 }
 
 main {
-    background-color: darkgray;
+    background-color: #53687E;
     display: flex;
 }
 
@@ -28,8 +29,9 @@ header a {
 }
 
 aside {
-    background-color: lightgray;
+    background-color: #53687E;
     width: 20%;
+    border-left: 1px solid white;
 }
 
 section {
@@ -42,10 +44,12 @@ section {
 nav {
     display: flex;
     justify-content: center;
-    background-color: grey;
-    margin: 0;
+    background-color: #53687E;
     padding-top: 15px;
     padding-bottom: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
 }
 
 nav ul {
@@ -55,7 +59,7 @@ nav ul {
 
 nav>ul>li>a {
     color: black;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .pildiga-blokk {
@@ -82,4 +86,49 @@ main aside {
     justify-content: center;
     padding: 10px;
     align-items: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
+    background-color: #53687E;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+footer ul li {
+    display: flex;
+    padding: 5px;
+
+}
+
+footer div h2 {
+    font-family: 'Limelight', cursive;
+    color: white;
+    border-bottom: 1px solid darkgray;
+}
+
+ul p {
+    border-bottom: 1px solid darkgray;
+    color: white;
+}
+
+.Third {
+    text-align: center;
+}
+
+footer ul li a {
+    color: black;
+    text-decoration: none;
 }

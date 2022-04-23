@@ -16,9 +16,6 @@ main {
     display: flex;
 }
 
-header img {
-    height: 50px
-}
 
 header h1 {
     color: white;
@@ -60,6 +57,8 @@ nav ul {
 nav>ul>li>a {
     color: black;
     margin-left: 5px;
+    color: white;
+    font-weight: 500;
 }
 
 .pildiga-blokk {
@@ -108,9 +107,7 @@ footer ul {
 }
 
 footer ul li {
-    display: flex;
     padding: 5px;
-
 }
 
 footer div h2 {
@@ -122,10 +119,6 @@ footer div h2 {
 ul p {
     border-bottom: 1px solid darkgray;
     color: white;
-}
-
-.Third {
-    text-align: center;
 }
 
 footer ul li a {

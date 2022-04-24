@@ -128,7 +128,7 @@ footer ul li a {
 }
 
 .main-section-teenused {
-    width: 100%;
+    width: 90%;
 }
 
 main section ul li {
@@ -143,6 +143,8 @@ main section ul li {
     justify-content: center;
     flex-wrap: wrap;
     text-align: left;
+    border-bottom: 1px solid darkgray;
+    padding-bottom: 15px;
 
 }
 
@@ -151,6 +153,7 @@ main section ul li {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    padding-top: 15px;
 }
 
 .tekst1 {

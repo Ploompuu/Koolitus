@@ -1,0 +1,25 @@
+@media screen and (min-width: 600px) {
+    .konteiner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        width: 50%;
+    }
+
+}
+
+
+@media screen and (min-width: 1000px) {
+    .card {
+        width: 33%;
+    }
+}
+
+.pilt {
+    width: 50%;
+    display: flex;
+
+}

@@ -5,7 +5,10 @@
     }
 
     .uudis {
-        min-width: 50%;
+        width: 46%;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+
     }
 
 
@@ -13,7 +16,7 @@
 
 @media screen and (min-width: 992px) {
     .uudis {
-        width: 33%;
+        width: 31%;
     }
 
 }

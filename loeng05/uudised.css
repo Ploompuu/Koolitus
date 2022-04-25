@@ -1,0 +1,19 @@
+@media screen and (min-width: 576px) {
+    .uudised {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .uudis {
+        min-width: 50%;
+    }
+
+
+}
+
+@media screen and (min-width: 992px) {
+    .uudis {
+        width: 33%;
+    }
+
+}

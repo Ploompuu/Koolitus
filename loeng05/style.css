@@ -1,0 +1,53 @@
+body {
+    background-color: darkgray;
+}
+
+.klass2,
+.klass3 {
+    display: none;
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        background-color: aqua;
+    }
+
+    h2 {
+        text-transform: uppercase;
+    }
+
+    .klass2 {
+        display: block;
+    }
+
+    .klass1 {
+        display: none;
+    }
+
+    .konteiner {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .konteiner img {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+        background-color: blue;
+    }
+
+    .klass3 {
+        display: block;
+    }
+
+    .klass2 {
+        display: none;
+    }
+
+    .konteiner img {
+        width: 33%;
+    }
+}

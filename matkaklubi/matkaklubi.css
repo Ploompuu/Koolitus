@@ -30,3 +30,12 @@ body {
         background-image: url(./assets/Hills@2x.png);
     }
 }
+
+.logoname2 {
+    font-weight: 700;
+    letter-spacing: 2.67px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    height: 20px;
+
+}

@@ -25,17 +25,75 @@ body {
     background-repeat: no-repeat;
 }
 
+@media screen and (min-width:768px) {
+    .matkajapilt {
+        display: block;
+    }
+}
+
 @media screen and (min-width: 1200px) {
     .first-background {
         background-image: url(./assets/Hills@2x.png);
     }
 }
 
-.logoname2 {
+.menuname2 {
     font-weight: 700;
     letter-spacing: 2.67px;
     color: #000000;
     font-family: 'Montserrat', sans-serif;
     height: 20px;
+    margin-left: 10px;
 
+}
+
+.menuname2 a {
+    color: #000000;
+}
+
+.matkajapilt {
+    display: none;
+}
+
+
+.rida {
+    display: flex;
+    width: 100%;
+
+}
+
+.first-background h1,
+.first-background h2,
+.first-background h3 {
+    letter-spacing: 0px;
+    color: #0B0B0B;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.first-background-pealkirjad {
+    padding-top: 231px;
+}
+
+.liblikas1 {
+    width: 76px;
+    height: 66px;
+    margin-left: auto;
+    margin-top: -45px;
+
+}
+
+.first-background h1 {
+    font-size: 74.39px;
+    line-height: 91px;
+}
+
+.first-background h2 {
+    font-size: 39.57px;
+    line-height: 48px;
+}
+
+.first-background h3 {
+    font-size: 20.83px;
+    line-height: 29.17px;
 }

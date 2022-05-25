@@ -28,7 +28,7 @@
   }
 
   .image-backround {
-      background-image: url(./assets/woman.jpeg);
+      background-image: url(./assets/bg-woman.jpeg);
       height: 900px;
       background-size: cover;
       background-position: center center;
@@ -42,7 +42,7 @@
       font-family: 'Manrope', sans-serif;
   }
 
-  .nupp1 {
+  .button-primary {
       background-color: #D64933;
       color: white;
       padding: 20px;
@@ -52,7 +52,7 @@
 
   }
 
-  .nupp1:hover {
+  .button-primary:hover {
       color: white;
       background-color: #EEB3AA;
   }
@@ -145,15 +145,17 @@
 
   .row6,
   .row7 {
-
-      border-style: solid;
-      border-width: 1px black;
       text-align: center;
   }
 
-  .row7 {
-      margin-top: 10px;
+  .row6 {
+      padding-top: 50px;
   }
+
+  .row7 {
+      padding-bottom: 50px;
+  }
+
 
   .col1,
   .col2,
@@ -161,5 +163,59 @@
   .col4,
   .col5,
   .col6 {
-      height: 180px;
+      height: 250px;
+      background-color: #D64930;
+      box-shadow: 3px 3px 0px rgb(0 0 0 / 0.2);
+      opacity: 0.99;
+      font-family: 'Manrope', sans-serif;
+      color: white;
+  }
+
+
+
+  .patternbackground {
+      background-image: url(./assets/bg-pattern.jpg);
+      background-size: cover;
+      height: fit-content;
+  }
+
+  .patternbackground>.row6>.col1>img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+  }
+
+  .patternbackground>.row6>.col2>img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+  }
+
+  .patternbackground>.row6>.col3>img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+  }
+
+  .patternbackground>.row7>.col4>img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+  }
+
+  .patternbackground>.row7>.col5>img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+  }
+
+  .patternbackground>.row7>.col6>img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+  }
+
+  .footer {
+      height: 300px;
+      background-color: white;
   }
